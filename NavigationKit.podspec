@@ -17,4 +17,5 @@ Pod::Spec.new do |s|
 
   s.frameworks = 'MapKit'
   s.dependency 'Google-Maps-iOS-SDK'
+  s.static_framework = true
 end
